@@ -13,10 +13,10 @@ import java.util.List;
 
 /**
  * =====================================================
- * XSLT PRODUCT ACTION (CXSLT Demo)
+ * XSLT PRODUCT ACTION (XSLT Demo)
  * =====================================================
  *
- * CXSLT = Custom XSLT Processing
+ * XSLT = Custom XSLT Processing
  * How it works:
  *   1. This action builds an XML Document (DOM)
  *   2. Returns it as the "model" object

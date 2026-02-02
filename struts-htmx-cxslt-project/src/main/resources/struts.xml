@@ -61,7 +61,7 @@
             <result type="dispatcher">/fragments/empty.jsp</result>
         </action>
 
-        <!-- CXSLT: Full page via XSLT -->
+        <!-- XSLT: Full page via XSLT -->
         <action name="xsltProductsAction" class="com.example.struts.action.XsltProductAction" method="execute">
             <result type="xslt">
                 <param name="stylesheetLocation">/WEB-INF/xslt/products.xslt</param>
@@ -69,7 +69,7 @@
             </result>
         </action>
 
-        <!-- CXSLT: Fragment via XSLT (used by HTMX) -->
+        <!-- XSLT: Fragment via XSLT (used by HTMX) -->
         <action name="xsltProductListAction" class="com.example.struts.action.XsltProductAction" method="execute">
             <result type="xslt">
                 <param name="stylesheetLocation">/WEB-INF/xslt/productList.xslt</param>

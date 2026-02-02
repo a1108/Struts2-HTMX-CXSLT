@@ -6,7 +6,7 @@
     This stylesheet outputs ONLY the product table —
     no <html>, <head>, or <body> tags.
 
-    This is the HTMX + CXSLT pattern combined:
+    This is the HTMX + XSLT pattern combined:
       1. HTMX sends a request for fresh data
       2. Struts runs the Java Action (builds XML)
       3. This XSLT transforms XML → HTML fragment

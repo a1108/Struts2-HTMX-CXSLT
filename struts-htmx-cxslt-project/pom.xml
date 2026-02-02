@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>struts-htmx-cxslt</artifactId>
+    <artifactId>struts-htmx-xslt</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

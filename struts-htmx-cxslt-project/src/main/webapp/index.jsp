@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Struts 2 + HTMX + CXSLT Demo</title>
+    <title>Struts 2 + HTMX + XSLT Demo</title>
     <link rel="stylesheet" href="css/style.css"/>
 
     <!--
@@ -29,7 +29,7 @@
 <body>
 
     <header class="app-header">
-        <h1>Struts 2 + HTMX + CXSLT</h1>
+        <h1>Struts 2 + HTMX + XSLT</h1>
         <p class="subtitle">A practical demo of server-side rendering with partial page updates</p>
     </header>
 
@@ -51,7 +51,7 @@
                 </div>
                 <div class="concept-item">
                     <div class="concept-icon">3</div>
-                    <h3>CXSLT</h3>
+                    <h3>XSLT</h3>
                     <p>Transforms XML data into HTML using XSLT stylesheets. Separates data from presentation.</p>
                 </div>
             </div>
@@ -80,7 +80,7 @@
 
                 <!--
                     =====================================================
-                    CXSLT DEMO LINK
+                    XSLT DEMO LINK
                     =====================================================
                     This loads a page where XML data is transformed
                     into HTML entirely via XSLT on the server.
@@ -88,7 +88,7 @@
                 -->
                 <a href="xsltProductsAction" class="nav-card xslt-card">
                     <div class="nav-icon">🔄</div>
-                    <h3>CXSLT Demo</h3>
+                    <h3>XSLT Demo</h3>
                     <p>Product list rendered by transforming XML data using XSLT stylesheets on the server.</p>
                     <span class="nav-tag">XML → XSLT → HTML</span>
                 </a>
@@ -114,7 +114,7 @@
     </main>
 
     <footer class="app-footer">
-        <p>Struts 2 + HTMX + CXSLT Learning Project</p>
+        <p>Struts 2 + HTMX + XSLT Learning Project</p>
     </footer>
 
 </body>
